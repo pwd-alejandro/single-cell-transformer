@@ -17,6 +17,7 @@ import scanpy as sc
 import torch
 from torch import nn
 
+from example.scFormer_assets.model_scformer import TransformerModel
 from scFormer_assets import utils
 from tasks.data_handling import data_pre_processing as dpp
 
